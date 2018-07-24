@@ -21,7 +21,7 @@ def sort_order_type(pre_val, next_val, order_type):
 
 
 if __name__ == "__main__":
-    a_list = list(map(int, input("Enter Numbers:").split()))
+    a_list = list(map(int, input("Enter Numbers:").strip().split()))
 
     print('ASC : ', bubble_sort(a_list, 'ASC'))
     print('DESC : ', bubble_sort(a_list, 'DESC'))

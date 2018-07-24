@@ -17,6 +17,6 @@ def selection_sort(a_list):
 
 
 if __name__ == "__main__":
-    a_list = list(map(int, input("Enter Numbers:").split()))
+    a_list = list(map(int, input("Enter Numbers:").strip().split()))
 
     print('선택 정렬 : ', selection_sort(a_list))
